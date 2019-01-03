@@ -1,0 +1,153 @@
+##################################################
+PRONOUN OPTIONS
+##################################################
+
+in styleinclude :
+
+styling field:
+	type: choice
+	name: pronoun
+	choice: Gender
+	
+	
+in game :
+
+### Pronouns for keyword texts
+	HIM := {
+		if filter_text( match: "squad", to_text(to_lower(card.type_bkgrnd)) ) = "squad" and input = "plural" then "them"
+		else if styling.pronoun = "Gender"   		then "him-pronoun"
+	}@("")
+	HE := {
+		if filter_text( match: "squad", to_text(to_lower(card.type_bkgrnd)) ) = "squad" and input = "plural" then "they"
+		else if styling.pronoun = "Gender"   		then "he-pronoun"
+	}@("")
+	HIS := {
+		if filter_text( match: "squad", to_text(to_lower(card.type_bkgrnd)) ) = "squad" and input = "plural" then "their"
+		else if styling.pronoun = "Gender"   		then "his-pronoun"
+	}@("")
+
+
+##################################################
+PRONOUN TEXT FILLS
+##################################################
+
+in game :
+
+	### Pronouns for keyword texts
+	PRONOUN := {
+		if filter_text( match: "squad", to_text(to_lower(card.type_bkgrnd)) ) = "squad" and input = "plural" then "plural-pronoun"
+		else if styling.pronoun = "Gender1"   then "gender1-singular"
+		else if styling.pronoun = "Gender2" 	then "gender2-singular"
+		else if styling.pronoun = "etc"			then "etc-singular"
+	}@("")
+
+
+##################################################
+GENERALS
+##################################################
+
+in game :
+
+init script:
+	
+	card_type := {
+		cardgen := to_lower(remove_tags(input))
+		if 		cardgen = "jandar" then "jandar"
+		else if cardgen = "general" then "general"
+		else "utgar"
+	}
+	
+	logo_type := {
+		cardgen := to_lower(remove_tags(input))
+		if      cardgen = "jandar" then "jandar"
+		else if cardgen = "general" then "general"
+		else "blank"
+	}
+	
+	### Colors associated with each general (used in trading cards)
+	card_color := {
+		cardgen := to_lower(remove_tags(input))
+		if      cardgen = "jandar" then rgb(23,69,189)
+		else if cardgen = "general" then rgb(,,)
+		else rgb(200,200,200)
+	}
+	
+	
+card field:
+	type: choice
+	name: card type
+	choice: general
+	
+card field:
+	type: choice
+	name: shld_backimage
+	editable: false
+	choice: general
+
+
+card field:
+	type: color
+	name: shld_nameback
+	choice:
+		name: General
+		color: rgb(,,)
+		
+card field:
+	type: color
+	name: shld_genback
+	choice:
+		name: General
+		color: rgb(,,)
+		
+card field:
+	type: choice
+	name: card type tk1
+	choice: general
+	
+card field:
+	type: choice
+	name: generallogo
+	show statistics: false
+	choice: general
+	
+card field:
+	type: choice
+	name: chcg24
+	choice: general
+	
+	
+in style :
+
+card style:
+
+	chcg24:
+		choice images:
+			general:		/heroscape.mse-game/chcg24/general.png
+			
+	card type:
+		left:	0
+		top:	0
+		width:	727
+		height:	691
+		z index: -2
+		render style: image
+		popup style: in place
+		choice images:
+			general:		cardblanks/general.jpg
+			
+	generallogo:
+		left: 205
+		top: 42
+		width: 51
+		height: 59
+		render style: image
+		popup style: in place
+		choice images:
+			general: /heroscape.mse-game/gensymbols/general.png
+			
+			
+in wordlists :
+
+word list:
+	name: generals
+	word: general

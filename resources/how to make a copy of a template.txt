@@ -1,0 +1,7 @@
+1. Copy [gamename].mse-game and rename as desired
+2. Copy any [gamename]-[templatename].mse-style folders as desired and rename to match the new name (newgamename)
+3. In [newgamename].mse-game/game and /keywords, update all references to [gamename] to the new name (newgamename)
+4. In any [newgamename]-[templatename].mse-style/style files, update all references to [gamename] to the new name (newgamename)
+
+Changing the version number for the game type can be done, but requires updating references to that version number in all files
+Backing up existing files by selecting them all, right clicking, and selecting "send to compressed/zipped folder" is recommended before making changes

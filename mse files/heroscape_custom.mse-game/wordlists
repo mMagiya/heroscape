@@ -1,0 +1,497 @@
+#Version 9/17/10
+
+word list:
+	name: species
+	word:
+		name: A - B
+		word: arachnid
+		word: bitlok
+		word: boulld
+	
+	word:
+		name: C - D
+		word: cyclops
+		word: cylborg
+		word: darkkin
+		word: demon
+		word: doggin
+		word: dokkrit
+		word: dorceal
+		word: dragon
+		word: dragonborn
+		word: drow
+		word: duergar
+		word: duhulin
+		word: dwarf
+		word: dzu-Teh
+	
+	word:
+		name: E - F
+		word: elemental
+		word: elementars
+		word: eladrin
+		word: elf
+		word: EMHA
+		word: fiantooth
+		word: firbolg
+		
+	word:
+		name: G - H
+		word: giant
+		word: goblin
+		word: golem
+		word: goliath
+		word: gryphillin
+		word: half-Drow
+		word: half-Elf
+		word: hobgoblin
+		word: human
+		word: hybrid
+		word: hydra
+	
+	word:
+		name: I - J
+		word: insect
+	
+	word:
+		name: K - L
+		word: kyrie
+		word: lizardfolk
+		word: lycanthrope
+	
+	word:
+		name: M - N
+		word: marro
+		word: mind flayer
+		word: moltarn
+		word: nagrub
+	
+	word:
+		name: O - P
+		word: ogre
+		word: ondroti
+		word: orc
+		word: primadon
+		
+	word:
+		name: Q - R
+		word: quasatch
+	
+	word:
+		name: S - T
+		word: sahuagin
+		word: shaemora
+		word: slime
+		word: soulborg
+		word: stelka
+		word: troll
+		word: trolticor
+	
+	word:
+		name: U - V
+		word: undead
+		word: viper
+		word: virag
+	
+	word:
+		name: W - X
+		word: warforged
+		word: wolf
+		word: wulsinu
+		word: wyvern
+	
+	word:
+		name: Y - Z
+
+word list:
+	name: exptype
+	word: Master Set
+	word: Expansion Set
+	word: Custom Set
+
+word list:
+	name: type
+	word:
+		name: hero
+		word: common hero
+		word: uncommon hero
+		word: unique hero
+		word: renowned hero
+		word: epic hero
+		word: legendary hero
+		
+	word:
+		name: squad
+		word: common squad
+		word: uncommon squad
+		word: unique squad
+		word: renowned squad
+		word: epic squad
+		word: legendary squad
+		
+	word:
+		name: platoon
+		word: common platoon
+		word: uncommon platoon
+		word: unique platoon
+		word: renowned platoon
+		word: epic platoon
+		word: legendary platoon
+		
+	word:
+		name: totem
+		word: common totem
+		word: uncommon totem
+		word: unique totem
+		word: renowned totem
+		word: epic totem
+		word: legendary totem
+		
+	word:
+		name: totems]
+		word: common totems
+		word: uncommon totems
+		word: unique totems
+		word: renowned totems
+		word: epic totems
+		word: legendary totems
+
+word list:
+	name: class
+	word:
+		name: A - B
+		word: agent
+		word: agents
+		word: alphallon
+		word: alphallons
+		word: arachnomancer
+		word: arachnomancers
+		word: archer
+		word: archers
+		word: archmage
+		word: archmages
+		word: ashigaru
+		word: battle mage
+		word: battle mages
+		word: beast
+		word: beasts
+		word: brute
+		word: brutes
+	
+	word:
+		name: C
+		word: champion
+		word: champions
+		word: cleric
+		word: clerics
+		word: construct
+		word: constructs
+		word: cutter
+		word: cutters
+		
+	word:
+		name: D
+		word: daimyo
+		word: dame
+		word: dames
+		word: darklord
+		word: darklords
+		word: death knight
+		word: death knights
+		word: deathreaver
+		word: deathreavers
+		word: deathstalker
+		word: deathstalkers
+		word: deathwalker
+		word: deathwalkers
+		word: devourer
+		word: devourers
+		word: divider
+		word: dividers
+		word: drone
+		word: drones
+		word: duke
+		word: dukes
+		word: duchess
+		word: duchesses
+	
+	word:
+		name: E - F
+		word: emperor
+		word: emperors
+		word: empress
+		word: empresses
+		word: fighter
+		word: fighters
+		word: frostrager
+		word: frostragers
+		
+	word:
+		name: G - H
+		word: gladiator
+		word: gladiators
+		word: gladiatrix
+		word: gladiatrixes
+		word: guard
+		word: guards
+		word: hewer
+		word: hewers
+		word: hive
+		word: hives
+		word: hivelord
+		word: hunter
+		word: hunters
+		
+	word:
+		name: I - J
+		word: juggernaut
+		word: juggernauts
+		
+	word:
+		name: K - L
+		word: king
+		word: kings
+		word: knight
+		word: knights
+		word: lady
+		word: ladies
+		word: lawman
+		word: lawmen
+		word: lawwoman
+		word: lawwomen
+		word: leader
+		word: leaders
+		word: lord
+		word: lords
+	
+	word:
+		name: M - N
+		word: major
+		word: majors
+		word: marauder
+		word: marauders
+		word: minion
+		word: minions
+		word: monk
+		word: monks
+		word: mount
+		word: mounts
+		word: ninja
+		word: ninjas
+		
+	word:
+		name: O - P
+		word: overlord
+		word: paladin
+		word: paladins
+		word: predator
+		word: predators
+		word: prince
+		word: princes
+		word: princess
+		word: princesses
+		word: protector
+		word: protectors
+		word: psychic
+		word: psychics
+		word: pulverizer
+		word: pulverizers
+		
+	word:
+		name: Q - R
+		word: queen
+		word: queens
+		word: raider
+		word: raiders
+		word: repulsor
+		word: repulsors
+		word: rogue
+		word: rogues
+	
+	word:
+		name: S
+		word: samurai
+		word: savage
+		word: savages
+		word: scout
+		word: scouts
+		word: sentinel
+		word: sentinels
+		word: shadow assassin
+		word: shadow assassins
+		word: sniper
+		word: snipers
+		word: soldier
+		word: soldiers
+		word: sorceror
+		word: sorcerors
+		word: stinger
+		word: stingers
+	
+	word:
+		name: T
+		word: tormentor
+		word: tormentors
+		word: tribesman
+		word: tribesmen
+		word: tribeswoman
+		word: tribeswomen
+		
+	word:
+		name: U - V
+	
+	word:
+		name: W - X
+		word: warden
+		word: wardens
+		word: warhulk
+		word: warhulks
+		word: warlord
+		word: warlords
+		word: warmonger
+		word: warmongers
+		word: warrior
+		word: warriors
+		word: warwitch
+		word: warwitches
+		word: witch
+		word: witches
+		word: wizard
+		word: wizards
+		word: wyrmling
+		word: wyrmlings
+	
+	word:
+		name: Y - Z
+		word: young
+		word: youngs
+
+word list:
+	name: personality
+	
+	word:
+		name: A - B
+		word: bold
+	
+	word:
+		name: C - D
+		word: confident
+		word: dauntless
+		word: devout
+		word: disciplined
+	
+	word:
+		name: E - F
+		word: fearless
+		word: fearsome
+		word: ferocious
+		
+	word:
+		name: G - H
+		
+	word:
+		name: I - J
+		word: inspiring
+	
+	word:
+		name: K - L
+		word: loyal
+		
+	word:
+		name: M - N
+		word: menacing
+		word: merciful
+		word: merciless
+		word: militaristic
+		word: mindless
+	
+	word:
+		name: O - P
+		word: precise
+		
+	word:
+		name: Q - R
+		word: rebellious
+		word: reckless
+		word: relentless
+		word: resolute
+		
+	word:
+		name: S - T
+		word: skittish
+		word: stoic
+		word: terrifying
+		word: tormented
+		word: tormenting
+		word: tricky
+	
+	word:
+		name: U - V
+		word: unfeeling
+		word: valiant
+		
+	word:
+		name: W - X
+		word: wild
+		
+	word:
+		name: Y - Z
+
+word list:
+	name: sizes
+	word: tiny
+	word: small
+	word: medium
+	word: large
+	word: huge
+	word: massive
+	word: immense
+	word: humongous
+	word: enormous
+	word: gigantic
+	word: colossal
+	word: titanic
+	word: astronomical
+	word: immeasurable
+
+word list:
+	name: generals
+	word:
+		name: base
+		word: jandar
+		word: utgar
+		word: vydar
+		word: ullar
+		word: einar
+	
+	word:
+		name: expansion
+		word: aquilla
+		word: valkrill
+	
+	word:
+		name: custom
+		word:
+			name: brendon
+			word: dellis
+			word: otarr
+		word: belorra
+		word: cyrena
+
+word list:
+	name: planets
+	word:
+		name: base
+		word: Alpha Prime
+		word: Earth
+		word: Feylund
+		word: Grut
+		word: Icaria
+		word: Isadora
+		word: Marr
+		word: Valhalla
+	
+	word:
+		name: custom
+		word: Gaia
+		word: Mars
